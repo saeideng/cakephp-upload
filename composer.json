@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "cakephp/orm": "3.*",
+        "cakephp/orm": "dev-log-deprecation",
         "php": ">=5.5",
         "league/flysystem": "*"
     },
