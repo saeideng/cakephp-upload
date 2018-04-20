@@ -31,6 +31,10 @@ define('CAKE', CORE_PATH . 'src' . DS);
 require ROOT . '/vendor/autoload.php';
 require CORE_PATH . 'config/bootstrap.php';
 
+if(getenv('disable_E_USER_DEPRECATED')=='true'){
+	error_reporting(E_ALL ^ E_USER_DEPRECATED);
+}
+
 Cake\Core\Configure::write('App', ['namespace' => 'App']);
 Cake\Core\Configure::write('debug', true);
 
