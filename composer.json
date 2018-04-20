@@ -17,11 +17,11 @@
         "league/flysystem": "*"
     },
     "require-dev": {
-        "cakephp/cakephp": "~3.0",
+        "cakephp/cakephp": "~3.6",
         "phpunit/phpunit": "<6.0",
         "league/flysystem-vfs": "*",
         "cakephp/cakephp-codesniffer": "dev-master",
-        "satooshi/php-coveralls": "dev-master"
+        "satooshi/php-coveralls": "~2.0"
     },
     "autoload": {
         "psr-4": {
